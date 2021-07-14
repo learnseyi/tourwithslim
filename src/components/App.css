@@ -1,25 +1,11 @@
 .App {
   font-family: 'Lato', sans-serif !important;
+  font-size:30px;
   font-weight: 100;
-  background-color: #fff;
   margin-top: 0;
-  margin-right:3%;
-  margin-left: 3%;
-  text-align: center;
-  height: 100vh;
-  position: relative;
+  margin-right:1%;
+  margin-left: 1%;
 }
 
-.test-btn{
-  font-family: 'Lato', sans-serif !important;
-  font-weight: 700;
-  border:none;
-  border-radius: 50%;
-  width: 6em;
-  height: 6em;
-position: fixed;
-top:5em;
-right: 7em;
 
-}
 

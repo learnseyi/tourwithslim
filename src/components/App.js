@@ -1,11 +1,11 @@
-import './App.css';
+import Hero from "./hero/Hero"
+// import './App.less';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello World</h1>
-        <button className="test-btn"> test-me</button>
+        <Hero />
       </header>
     </div>
   );
