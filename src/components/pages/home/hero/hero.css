@@ -1,0 +1,79 @@
+.hero-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 2em;
+  text-transform: uppercase !important;
+  letter-spacing: 2rem;
+}
+.hero-subtitle {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2.5rem;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+.span-title {
+  display: block;
+  letter-spacing: 0.3rem;
+}
+.hero-header {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(
+      rgba(124, 185, 232, 0.603),
+      rgba(124, 185, 232.603)
+    ),
+    url("./images/hero-small.jpg");
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  height: 95vh;
+}
+
+.nav-btn {
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
+  font-weight: 700;
+  border: none;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  position: fixed;
+  top: 5em;
+  right: 5em;
+  z-index: 1 !important;
+}
+/* h2 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 45px;
+} */
+/* .sub-heading {
+  display: block;
+  font-size: 50%;
+  font-weight: 400;
+  letter-spacing: 1rem;
+} */
+@media (max-width: 1024px) {
+  .nav-btn {
+    right: 2em;
+    top: 2em;
+    font-size: 50%;
+  }
+  .hero-title {
+    font-size: 200%;
+    letter-spacing: 0.5rem;
+    padding-top: 10rem;
+  }
+  .hero-subtitle {
+    display: block;
+    font-size: 150%;
+    font-weight: 700;
+    letter-spacing: 1.5rem;
+    margin-top: 2em;
+  }
+  .span-title {
+    display: block;
+    letter-spacing: 0.2rem;
+  }
+}
