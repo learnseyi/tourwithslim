@@ -23,12 +23,3 @@ const App = ()=> {
 
 export default App;
 
-{/* <Route exact path="/">
-  <Home />
-</Route>
-<Route path="/about">
-  <About />
-</Route>
-<Route path="/dashboard">
-  <Dashboard />
-</Route> */}
