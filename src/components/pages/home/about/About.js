@@ -1,4 +1,5 @@
 import React from 'react';
+import useWindowDimentions from '../../../customHooks/useWindowDimensions';
 import { Row,Col,Typography, Button,Image } from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
@@ -8,6 +9,7 @@ import nat3 from './images/nat-3-large.jpg';
 import './about.css';
 const {Title,Paragraph} = Typography
 const About = ()=>{
+    let {width} = useWindowDimentions();
     return(
         <section className='about-section'>
         <Row>

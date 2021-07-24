@@ -2,6 +2,8 @@ import React,{useState} from 'react';
 import Hero from './hero/Hero';
 import NavLinks from './hero/nav/NavLinks';
 import About from './about/About';
+import Feature from './features/Feature';
+import PopularTours from './popularTours/PopularTours';
 
 
 const HomePage = ()=>{
@@ -16,6 +18,8 @@ const HomePage = ()=>{
         </header>
         <main>
             <About/>
+            <Feature/>
+            <PopularTours/>
         </main>
     </React.Fragment>)
 }

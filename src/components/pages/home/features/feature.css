@@ -1,0 +1,30 @@
+.features-section {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(124, 185, 232, 0.603),
+      rgba(124, 185, 232.603)
+    ),
+    url("./images/nat-4.jpg");
+  background-position: cover;
+  padding: 9.5em 0;
+  margin-top: 1rem;
+  transform: skewY(-7deg);
+}
+.card-container {
+  transform: skewY(7deg);
+  /* margin-left: 20%; */
+  /* margin: 0 7em; */
+  padding-left: 5em;
+  padding-right: 5em;
+}
+@media (max-width: 768px) {
+  .features-section {
+    padding: 2.5em 0;
+  }
+  .ant-card {
+    margin-bottom: 1.5em;
+  }
+  /* .card-container {
+    height: -20vh;
+  } */
+}
