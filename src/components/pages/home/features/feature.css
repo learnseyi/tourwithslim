@@ -12,16 +12,43 @@
 }
 .card-container {
   transform: skewY(7deg);
-  /* margin-left: 20%; */
-  /* margin: 0 7em; */
   padding-left: 5em;
   padding-right: 5em;
+  padding-top: 0.5em;
+}
+.ant-card {
+  padding: 2em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  transition: transform 0.3s ease;
+}
+.ant-card:hover {
+  transform: translateY(-20px);
+}
+.card-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #978e8e;
 }
 @media (max-width: 768px) {
   .features-section {
-    padding: 2.5em 0;
+    padding: 5em 0;
+  }
+  .card-container {
+    padding: 1em 1em;
   }
   .ant-card {
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
+    /* padding: 0; */
+    height: 9em;
   }
+  .ant-card-body {
+    padding: 0;
+  }
+  .description {
+    display: none;
+  }
+}
+svg path {
+  stroke-width: 5;
 }

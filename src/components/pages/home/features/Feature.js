@@ -1,24 +1,25 @@
 import React from 'react';
 import {Row,Col,Card } from 'antd';
-// import nat4 from './images/nat-4.jpg';
-import { GlobalOutlined } from '@ant-design/icons';
+// import useWindowDimentions from '../../../customHooks/useWindowDimensions';
+import {content} from './featureContent';
 import './feature.css';
 
-const nums = [1,2,3,4]
-// const {Meta} = Card;
+
 const Feature = ()=>{
     return (
         <section className = 'features-section'>
             <Row className = 'card-container' gutter={16} >
             
-       {nums.map(num =>{
+       {content.map((item,i) =>{
           return(<>
             <Col xs={24} sm={24} md={12} lg={6} className = 'card-holder'>
+                
             <Card 
             bordered={false} 
-            cover={<GlobalOutlined   style={{ fontSize:  '5em',fontWeight:200}}/>}
+            cover={item.icon}
             >
-              Card content
+                <p className ='card-title'>{item.title}</p>
+              <p className = 'description'>{item.description}</p>
             </Card>
           </Col>  
           </>)
