@@ -1,6 +1,5 @@
 import React from 'react';
 import {Row,Col,Card } from 'antd';
-// import useWindowDimentions from '../../../customHooks/useWindowDimensions';
 import {content} from './featureContent';
 import './feature.css';
 

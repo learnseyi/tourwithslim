@@ -4,6 +4,7 @@ import NavLinks from './hero/nav/NavLinks';
 import About from './about/About';
 import Feature from './features/Feature';
 import PopularTours from './popularTours/PopularTours';
+import Reviews from './reviews/Reviews';
 
 
 const HomePage = ()=>{
@@ -20,6 +21,7 @@ const HomePage = ()=>{
             <About/>
             <Feature/>
             <PopularTours/>
+            <Reviews/>
         </main>
     </React.Fragment>)
 }

@@ -1,4 +1,86 @@
-.tours-container {
+.tours-section {
   height: 100vh;
-  /* background: chocolate; */
+  /* background: linear-gradient(
+    rgba(124, 185, 232, 0.603),
+    rgba(124, 185, 232.603)
+  ); */
+
+  /* background-position: cover;
+  padding: 9.5em 0; */
+ 
+  margin-top: 1em;
+}
+.tours-section .section-heading {
+  text-align: center;
+  color: #686bf7;
+  /* padding-top: 2.5em; */
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  width: 100%;
+  transition: all 0.2s;
+}
+.section-heading:hover {
+  text-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
+  transform: skew(5deg, 5deg);
+}
+.row-padding {
+  padding: 4em;
+  margin:3em;
+}
+.plan-container {
+  margin: 4em 0 ;
+  position: relative;
+ 
+}
+.plan-container .ant-card {
+  /* margin-top: 4em; */
+  text-align: center;
+}
+.plan-name {
+  background: #686af76c;
+  border-radius: 20px;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
+  font-size: 120%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 3em;
+  right: 0;
+  color: #fff;
+  padding: 1em;
+}
+.plan-container .ant-card .ant-card-meta-title{
+  display:block;
+  padding: 10px;
+  margin:auto;
+  color: #978e8e;
+  
+}
+.plan-container .ant-card .ant-card-meta-title:after {
+  content: " ";
+  display:block;
+  padding: 10px;
+  border-bottom: 1px solid #a7a1a1;
+  margin:auto;
+  color: #978e8e;
+  width: 50%;
+}
+.flip{
+  transition: transform 2s ease;
+}
+.plan-container .flip_2{
+  transform: rotateY(180deg);
+  transition: transform 2s ease;
+}
+@media (max-width:768px){
+  .tours-section{
+    height: 210vh;
+  }
+  .plan-container{
+    height: 70vh;
+  }
+  .row-padding {
+    padding: 0;
+  }
 }

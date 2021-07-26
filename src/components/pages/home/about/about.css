@@ -3,7 +3,7 @@
   margin-top: -20vh;
   padding: 5rem 0;
 }
-.section-heading {
+.about-section .section-heading {
   text-align: center;
   color: #686bf7;
   padding-top: 2.5em;
@@ -13,7 +13,7 @@
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 }
-.section-heading:hover {
+.about-section .section-heading:hover {
   text-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
   transform: skew(5deg, 5deg);
 }
